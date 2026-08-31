@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Akash Studio | Software Engineer</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+*{scroll-behavior:smooth}
+body{font-family:Inter,sans-serif;background:#050505;color:#fff;overflow-x:hidden}
+#bg{position:fixed;inset:0;z-index:-2}
+.glass{background:rgba(255,255,255,.04);backdrop-filter:blur(14px);border:1px solid rgba(255,255,255,.08)}
+.reveal{opacity:0;transform:translateY(60px);transition:1s}
+.reveal.show{opacity:1;transform:none}
+.gradient{background:linear-gradient(90deg,#fff,#999);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
+.card{transition:.4s}
+.card:hover{transform:translateY(-10px);border-color:rgba(255,255,255,.2)}
+.glow{position:absolute;inset:auto;filter:blur(120px);opacity:.2;z-index:-1}
+</style>
+</head>
+<body>
+
+<canvas id="bg"></canvas>
+
+<nav class="fixed top-0 w-full z-50 border-b border-white/10 bg-black/40 backdrop-blur-xl">
+<div class="max-w-7xl mx-auto px-6 py-5 flex justify-between items-center">
+<div class="font-bold tracking-widest">MG</div>
+<div class="hidden md:flex gap-8 text-sm text-neutral-400">
+<a href="#about">About</a>
+<a href="#services">Services</a>
+<a href="#projects">Projects</a>
+<a href="#skills">Skills</a>
+<a href="#contact">Contact</a>
+</div>
+<a href="#contact" class="px-5 py-2 rounded-full bg-white text-black font-medium">Let's Talk</a>
+</div>
+</nav>
+
+<section class="min-h-screen flex items-center justify-center text-center px-6 relative">
+<div class="glow w-96 h-96 bg-violet-500"></div>
+<div class="max-w-5xl">
+<div class="inline-flex px-4 py-2 rounded-full glass text-sm mb-8">● Available For Opportunities</div>
+<h1 class="text-6xl md:text-8xl lg:text-9xl font-black tracking-tight leading-none">Manan Gadhavi</h1>
+<p class="gradient text-xl md:text-3xl mt-8">Full Stack Developer • Software Engineer • Data Analyst</p>
+<p class="max-w-3xl mx-auto text-neutral-400 mt-8 text-lg">
+Building business software, ERP systems, web applications, automation tools, analytics dashboards and scalable digital solutions.
+</p>
+<div class="mt-10 flex justify-center gap-4 flex-wrap">
+<a href="#projects" class="px-8 py-4 rounded-full bg-white text-black font-semibold">View Projects</a>
+<a href="#contact" class="px-8 py-4 rounded-full border border-white/20">Contact Me</a>
+</div>
+<div class="grid grid-cols-2 md:grid-cols-4 gap-4 mt-16">
+<div class="glass p-4 rounded-2xl"><b>15+</b><br><span class="text-neutral-400 text-sm">Projects</span></div>
+<div class="glass p-4 rounded-2xl"><b>10+</b><br><span class="text-neutral-400 text-sm">Technologies</span></div>
+<div class="glass p-4 rounded-2xl"><b>3+</b><br><span class="text-neutral-400 text-sm">Domains</span></div>
+<div class="glass p-4 rounded-2xl"><b>100+</b><br><span class="text-neutral-400 text-sm">Challenges</span></div>
+</div>
+</div>
+</section>
+
+<section id="about" class="max-w-7xl mx-auto px-6 py-28 reveal">
+<h2 class="text-5xl font-bold mb-8">Engineering Software That Solves Real Problems</h2>
+<p class="text-neutral-400 text-lg leading-9 max-w-4xl">
+I am a developer with experience in HTML, CSS, JavaScript, React, PHP, Python, Java, C, C++, C#, ASP.NET, Android Development, SQL and WordPress. I focus on transforming business requirements into scalable, user-friendly software products. My interests include ERP systems, School Management Software, Institute Management Systems, Analytics Dashboards, Automation Tools and Database-Driven Applications.
+</p>
+</section>
+
+<section id="services" class="max-w-7xl mx-auto px-6 py-28 reveal">
+<h2 class="text-5xl font-bold mb-12">Services</h2>
+<div class="grid md:grid-cols-3 gap-6">
+<div class="glass card p-8 rounded-3xl"><h3 class="text-2xl font-bold mb-3">Web Development</h3><p class="text-neutral-400">Business websites, custom portals, responsive websites, landing pages and modern web applications.</p></div>
+<div class="glass card p-8 rounded-3xl"><h3 class="text-2xl font-bold mb-3">Business Software</h3><p class="text-neutral-400">ERP Systems, School Management Systems, Inventory Systems, CRM and Billing Solutions.</p></div>
+<div class="glass card p-8 rounded-3xl"><h3 class="text-2xl font-bold mb-3">Python Development</h3><p class="text-neutral-400">Automation, APIs, data processing, reporting tools and custom software solutions.</p></div>
+<div class="glass card p-8 rounded-3xl"><h3 class="text-2xl font-bold mb-3">Data Analytics</h3><p class="text-neutral-400">Power BI dashboards, SQL reporting, KPI monitoring and business intelligence.</p></div>
+<div class="glass card p-8 rounded-3xl"><h3 class="text-2xl font-bold mb-3">Database Solutions</h3><p class="text-neutral-400">MySQL, PostgreSQL, SQL Server, optimization and data architecture.</p></div>
+<div class="glass card p-8 rounded-3xl"><h3 class="text-2xl font-bold mb-3">WordPress Development</h3><p class="text-neutral-400">Custom websites, themes, optimization and SEO-ready implementations.</p></div>
+</div>
+</section>
+
+<section id="projects" class="max-w-7xl mx-auto px-6 py-28 reveal">
+<h2 class="text-5xl font-bold mb-12">Featured Projects</h2>
+<div class="grid md:grid-cols-2 gap-6">
+<div class="glass card p-8 rounded-3xl"><h3 class="text-2xl font-bold">School Management System</h3><p class="mt-4 text-neutral-400">Students, Teachers, Fees, Attendance, Promotion/Demotion, Reports and Analytics.</p></div>
+<div class="glass card p-8 rounded-3xl"><h3 class="text-2xl font-bold">Institute ERP</h3><p class="mt-4 text-neutral-400">Complete institute management with dashboards, operations and reporting.</p></div>
+<div class="glass card p-8 rounded-3xl"><h3 class="text-2xl font-bold">Inventory Management System</h3><p class="mt-4 text-neutral-400">Stock control, purchases, sales, reporting and analytics.</p></div>
+<div class="glass card p-8 rounded-3xl"><h3 class="text-2xl font-bold">Data Analytics Dashboard</h3><p class="mt-4 text-neutral-400">Power BI dashboards, KPIs, trends and business intelligence reports.</p></div>
+</div>
+</section>
+
+<section id="skills" class="max-w-7xl mx-auto px-6 py-28 reveal">
+<h2 class="text-5xl font-bold mb-12">Technology Stack</h2>
+<div class="grid md:grid-cols-4 gap-4">
+<div class="glass p-5 rounded-2xl">HTML5</div><div class="glass p-5 rounded-2xl">CSS3</div>
+<div class="glass p-5 rounded-2xl">JavaScript</div><div class="glass p-5 rounded-2xl">React</div>
+<div class="glass p-5 rounded-2xl">PHP</div><div class="glass p-5 rounded-2xl">Python</div>
+<div class="glass p-5 rounded-2xl">Java</div><div class="glass p-5 rounded-2xl">C# ASP.NET</div>
+<div class="glass p-5 rounded-2xl">C / C++</div><div class="glass p-5 rounded-2xl">Android</div>
+<div class="glass p-5 rounded-2xl">SQL</div><div class="glass p-5 rounded-2xl">WordPress</div>
+<div class="glass p-5 rounded-2xl">MySQL</div><div class="glass p-5 rounded-2xl">PostgreSQL</div>
+<div class="glass p-5 rounded-2xl">OOP</div><div class="glass p-5 rounded-2xl">POP</div>
+</div>
+</section>
+
+<section id="contact" class="max-w-5xl mx-auto text-center px-6 py-32 reveal">
+<h2 class="text-6xl font-bold">Let's Build Something Amazing</h2>
+<p class="text-neutral-400 text-xl mt-8">Interested in working together or discussing a project?</p>
+<p class="text-3xl mt-10 font-semibold">techversecontact01@example.com</p>
+</section>
+
+<footer class="border-t border-white/10 py-8 text-center text-neutral-500">
+Akash Studio • Full Stack Developer • Software Engineer • Data Analyst
+</footer>
+
+<script>
+const c=document.getElementById('bg'),ctx=c.getContext('2d');
+function rs(){c.width=innerWidth;c.height=innerHeight}rs();onresize=rs;
+let p=[...Array(120)].map(()=>({x:Math.random()*c.width,y:Math.random()*c.height,vx:(Math.random()-.5)*.6,vy:(Math.random()-.5)*.6}));
+function anim(){
+ctx.fillStyle='rgba(5,5,5,.25)';ctx.fillRect(0,0,c.width,c.height);
+for(let a of p){
+a.x+=a.vx;a.y+=a.vy;
+if(a.x<0||a.x>c.width)a.vx*=-1;
+if(a.y<0||a.y>c.height)a.vy*=-1;
+ctx.beginPath();ctx.arc(a.x,a.y,2,0,6.28);ctx.fillStyle='#8b5cf6';ctx.fill();
+}
+for(let i=0;i<p.length;i++)for(let j=i+1;j<p.length;j++){
+let dx=p[i].x-p[j].x,dy=p[i].y-p[j].y,d=Math.hypot(dx,dy);
+if(d<90){ctx.strokeStyle='rgba(139,92,246,'+(1-d/90)*0.15+')';ctx.beginPath();ctx.moveTo(p[i].x,p[i].y);ctx.lineTo(p[j].x,p[j].y);ctx.stroke();}
+}
+requestAnimationFrame(anim);
+}
+anim();
+const o=new IntersectionObserver(e=>e.forEach(x=>x.isIntersecting&&x.target.classList.add('show')));
+document.querySelectorAll('.reveal').forEach(x=>o.observe(x));
+</script>
+</body>
+</html>
